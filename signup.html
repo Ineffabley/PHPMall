@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<style>
+    *{margin:0;padding:0;}
+
+</style>
+<head>
+
+    <title>登录</title>
+
+    <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //Meta-Tags -->
+
+    <!-- Style --> <link rel="stylesheet" href="css/style3.css" type="text/css" media="all">
+    <link href="form.css" rel="stylesheet"/>
+
+
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+
+<h1>用户注册</h1>
+
+<div class="container w3layouts agileits">
+
+
+    <div class="register w3layouts agileits">
+        <h2>注 册</h2>
+            <form action="signup.php" method="POST" class="Form1" id="Form1" onsubmit="return check()">
+                <input class="input1" type="text"  name="signup_userName" onblur="signupusername()" required placeholder="手机号码">
+                <input type="text" Name="signup_email" placeholder="邮箱" required="">
+                <input type="password" Name="signup_passWord" placeholder="密码" required="">
+                <input type="password" Name="signup_passWord1" placeholder="确认密码" required="">
+                <div class="send-button w3layouts agileits">
+                    <input class="sub1" type="submit" value="免费注册">
+                </div>
+            </form>
+        <a href="amend.html">忘记密码?</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">已有账号！</a>
+        <div class="clear"></div>
+    </div>
+
+    <div class="clear"></div>
+
+</div>
+
+<div style="text-align:center;">
+</div>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="form.js" charset="utf-8"></script>
+</body>
+</html>

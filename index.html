@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<style>
+	*{margin:0;padding:0;}
+
+</style>
+<head>
+
+	<title>登录表单</title>
+
+	<!-- Meta-Tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //Meta-Tags -->
+
+	<!-- Style --> <link rel="stylesheet" href="css/style3.css" type="text/css" media="all">
+	<link href="form.css" rel="stylesheet"/>
+
+
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+
+	<h1>登录</h1>
+
+	<div class="container w3layouts agileits">
+
+		<div class="login w3layouts agileits">
+			<h2>登 录</h2>
+			<div class="submit ">
+				<form action="login.php" method="post" class="Form1" id="Form1">
+					<input type="text" Name="login_userName" placeholder="用户名" required="">
+					<input type="password" Name="login_passWord" placeholder="密码" required="">
+					<p class="yz">
+						<span style="color:#f4ffff">  验证码:</span>
+						<input type ="text" id="text" class="yz_text" required placeholder="请输入验证码">
+						<input type="button" id="code" onclick="Code()" title='点击更换验证码' >
+					</p>
+					<div class="send-button w3layouts agileits">
+						<input type="submit" value="登 录">
+					</div>
+				</form>
+			</div>
+			<a href="amend.html">忘记密码?</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="signup.html">没有账号?</a>
+			<div class="social-icons w3layouts agileits">
+				<p>- 其他方式登录 -</p>
+				<ul>
+					<li class="qq"><a href="index.html">
+					<span class="icons w3layouts agileits"></span>
+					<span class="text w3layouts agileits">管理员</span></a></li>
+					<li class="weixin w3ls"><a href="index.html">
+					<span class="icons w3layouts"></span>
+					<span class="text w3layouts agileits">用户</span></a></li>
+					<li class="weibo aits"><a href="index3.php">
+					<span class="icons agileits"></span>
+					<span class="text w3layouts agileits">游客</span></a></li>
+					<div class="clear"> </div>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+
+	</div>
+<div style="text-align:center;">
+</div>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="form.js" charset="utf-8"></script>
+</body>
+
+</html>
